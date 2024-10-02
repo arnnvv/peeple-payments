@@ -36,8 +36,8 @@ const PeepleWebsite: React.FC = () => {
           <p className="text-2xl sm:text-3xl mb-12 max-w-2xl mx-auto text-purple-700">
             Swipe, chat, and fall in love! 💜✨
           </p>
-          <button className="bg-[#8b5cf6] text-white px-10 sm:px-12 py-4 rounded-full text-xl font-bold hover:bg-purple-600 transition duration-300 transform hover:scale-110 shadow-lg">
-            Start Matching Now!
+                    <button className="bg-gradient-to-r from-[#8b5cf6] to-purple-600 text-white px-10 py-4 rounded-full text-xl font-bold hover:from-purple-600 hover:to-[#8b5cf6] transition duration-300 transform hover:scale-110 shadow-lg">
+            Download Peeple Now! 🚀
           </button>
         </div>
       </section>
@@ -71,17 +71,6 @@ const PeepleWebsite: React.FC = () => {
         </div>
       </section>
 
-      {/* Fun CTA */}
-      <section className="py-16 bg-purple-100">
-        <div className="container mx-auto text-center px-4">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-[#8b5cf6]">
-            Ready to find your soulmate? 💘
-          </h2>
-          <button className="bg-gradient-to-r from-[#8b5cf6] to-purple-600 text-white px-10 py-4 rounded-full text-xl font-bold hover:from-purple-600 hover:to-[#8b5cf6] transition duration-300 transform hover:scale-110 shadow-lg">
-            Download Peeple Now! 🚀
-          </button>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-[#8b5cf6] text-white py-8">
